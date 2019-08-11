@@ -18,7 +18,7 @@ export default {
 
 <style>
 :root {
-  --primary-color: #282a36;
+  --primary-color: #191919;
 }
 * {
   box-sizing: border-box;
@@ -42,8 +42,9 @@ ul {
   background: var(--primary-color);
 }
 .body-bg-image {
-  /* background: var(--primary-color) url("./assets/octane.png") no-repeat top
-    center; */
+  background: var(--primary-color) url("./assets/88bccfba51679d0280c45a94b9111890.gif") no-repeat top
+  center; 
+  
 }
 .container {
   max-width: 960px;
@@ -56,8 +57,8 @@ ul {
 }
 .search {
   background: rgba(0, 0, 0, 0.5);
-  border: 4px #fff solid;
-  margin-top: 1rem;
+  border: 4px #ff5555 solid;
+  margin-top: 4rem;
   padding: 2rem;
 }
 input,

@@ -4,7 +4,7 @@
     <form v-on:submit.prevent="onSubmit">
       
       <div class="form-group">
-        <label for="gamertag">IP</label>
+        <label for="gamertag">Enter IP</label>
         <input
           type="text"
           id="gamertag"

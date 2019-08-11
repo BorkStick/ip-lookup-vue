@@ -26,6 +26,7 @@ img {
 div {
   display: flex;
   font-size: 30px;
+  padding: 0 0 50px 0;
 }
 #host {
   color: #50fa7b;

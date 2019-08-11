@@ -59,8 +59,10 @@
   </section>
 </template>
 
-
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
+    async defer></script>
 <script>
+
 import axios from "axios";
 
 export default {
@@ -93,6 +95,7 @@ export default {
   }
 };
 </script>
+
 
 <style scoped>
 .container {
